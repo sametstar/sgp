@@ -1,0 +1,885 @@
+/*--------------------------------------------
+MEDIA QUERIES
+--------------------------------------------*/
+@media (min-width:360px) {
+    .person-card {min-width: 240px;}
+}
+
+@media (min-width:375px) {
+    #referencesHomePageCarousel .customer-logo {
+        width: 33.3333%;
+        padding: .5rem;
+    }
+}
+
+@media (min-width:411px) {
+    .person-card {min-width: 280px;}
+}
+
+@media (min-width:480px) {
+    .navbar-collapse.show {border-bottom: 1px solid rgba(255, 255, 255, .22);}
+    .nav-item .nav-link {border: none;}
+    .modal-title {margin: auto auto auto 2rem;}
+    .modal-header .close {padding: 1.125rem 1.5rem;}
+    .navbar-collapse {
+        display: flex;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        margin: auto;
+    }
+    .xtnd-nav-item {display: flex;}
+    #searchInSite {margin: auto .5rem;}
+    .search-active .search + .search-in-site-input {width: calc(100vw - 330px);}
+    .navbar-collapse .xtnd-nav {display: none;}
+    #randomLandingImage {height: calc(56.25vw + 56px);}
+    #randomLandingImage .hero {
+        padding: 2rem;
+        margin: auto auto 0 auto;
+    }
+    .what-home .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 50%;
+        padding-bottom: calc(50% - 1rem);
+    }
+    .what-home .col-md-3 .text-area {
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 1rem;
+    }
+    #referencesHomePageCarousel .carousel-control {width: 32px;}
+    #referencesHomePageCarousel .customer-logo {padding: 0 1rem;}
+    .contact-home .xtnd-nav {display: none;}
+    .contact-home .separator.mobil-xtr {display: none;}
+
+    /*--------------------------------------------
+    PAGES > ABOUT
+    --------------------------------------------*/
+    .sgp .container-about .container .brief, .modal-body {padding: 32px;}
+
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    .container-contact .map-route-helper.mobile {margin: 0 auto;}
+    .image-gallery {
+        width: 100%;
+        max-width: 540px;
+        margin: 0 auto 1rem auto;
+    }
+    .gallery-image {width: 25%;}
+}
+
+@media (min-width:576px) {
+    #randomLandingImage .hero {padding: 1rem 1rem 2rem 1rem;}
+
+
+
+
+    .breadcrumb {margin: 0 -15px;}
+    .what-home .col-md-3 .text-area {
+        left: 2rem;
+        top: 2rem;
+        right: 2rem;
+        bottom: 2rem;
+    }
+    .corporate-tv .text-area {margin: 1rem auto;}
+    .person-card {min-width: 200px;}
+    .works-home .row .col-md-6 {width: 50%;}
+    #referencesHomePageCarousel .row {margin: -2rem 0;}
+    #referencesHomePageCarousel .customer-logo {padding: 0 1.75rem;}
+    .recent .container {max-width: none;}
+    .work-list .container {
+        max-width: none;
+        padding: 0 17px;
+    }
+    .work-list .row .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .what .navbar-container + .container-fluid {padding-top: 2rem;}
+    .what-sub .navbar-container + .container-fluid {padding-top: 0;}
+    .what-sub .detailed-brief {padding: 20px 0;}
+    #studio {padding-bottom: 2rem;}
+    .team .navbar-container + .container-fluid .container {
+        padding: .5rem 0 1rem 0;
+        margin: 0 auto;
+    }
+
+    /*--------------------------------------------
+    PAGES > REFERENCES
+    --------------------------------------------*/
+    .references .navbar-container + .container-fluid > .container > .row {padding: 2rem 0;}
+    .references .navbar-container + .container-fluid > .container .customer-logo {padding: 1rem;}
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .navbar {max-width: none;}
+}
+
+@media (min-width:600px) and (min-height:720px) {
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    .container-contact .map-route-helper.mobile {display: none;}
+    .container-contact .map-route-helper.desktop {
+        display: flex;
+        padding: 0;
+    }
+    .image-gallery {margin: 1rem auto;}
+}
+
+@media (min-width:667px) {
+    .contact-infos {
+        flex-direction: row;
+        white-space: nowrap;
+        margin: 0 auto;
+        border: none;
+    }
+    body.contact .contact-infos {margin: auto auto auto 0;}
+    .separator {
+        min-width: 1px;
+        width: 1px;
+        height: auto;
+        margin: 0 .5rem;
+    }
+    .contact-home .action-btn {margin: 1rem auto;}
+    #referencesHomePageCarousel .row {margin: -1rem 0;}
+    #referencesHomePageCarousel .customer-logo {padding: 0 3rem;}
+}
+
+@media (min-width:768px) {
+    #randomLandingImage .random-image img {
+        opacity: .66;
+        filter: grayscale(1) contrast(.5);
+        transition: all ease-in-out 300ms;
+    }
+    #randomLandingImage .hero:hover ~ .random-image img {
+        opacity: 1;
+        filter: grayscale(0) contrast(.75);
+    }
+    #randomLandingImage .hero {
+        padding: 1rem;
+        margin: auto auto 1rem auto;
+    }
+    #randomLandingImage .hero h1::before {left: -12px;}
+    .what-home .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 25%;
+        padding-bottom: calc(25% - 1rem);
+    }
+    .content-corporate-tv {padding: 15% 0;}
+    #referencesHomePageCarousel .row {
+        padding: 1rem 2rem;
+        margin: 0;
+    }
+    #referencesHomePageCarousel .customer-logo {
+        width: 16.6667%;
+        padding: 0 .5rem;
+    }
+
+
+
+
+
+    .person-card {min-width: 220px;}
+    .section.works-home {padding: 2rem 0;}
+    .section.references-home {padding: 2rem 0 1rem 0;}
+    .section.contact-home {padding: 2rem 0 1rem 0;}
+    .container-contact {padding: 5rem 4rem 1rem 4rem;}
+    .container-contact .container {padding: 0 4rem;}
+
+
+
+
+
+
+    .what .container-fluid.navbar-container {padding: 0;}
+    .what .page-section.container-fluid .container {
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+    }
+    .what .container .dot-pattern {
+        display: block;
+        left: 0;
+        right: 0;
+        background-size: .375rem;
+        opacity: 1;
+        mix-blend-mode: difference;
+    }
+    .what .text-area {
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        bottom: 0;
+        width: 35%;
+        padding: 1rem;
+        margin: 0;
+    }
+    .what .text-area.right-side {
+        right: 15px;
+        text-align: right;
+    }
+    .what .text-area.right-side::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -40%;
+        width: 150%;
+        height: 200%;
+        transform: rotate(10deg) translate(0, -50%);
+        background: linear-gradient(-100deg, #fff, rgba(255, 255, 255, .95));
+        background: linear-gradient(-100deg, #303030, rgba(48, 48, 48, .95));
+        z-index: 0;
+    }
+    .what .text-area.left-side {left: 15px;}
+    .what .text-area.left-side::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        width: 150%;
+        height: 200%;
+        transform: rotate(10deg) translate(0, -50%);
+        background: linear-gradient(-100deg, rgba(255, 255, 255, .95), #fff);
+        background: linear-gradient(-100deg, rgba(48, 48, 48, .95), #303030);
+        z-index: 0;
+    }
+    .what .text-area > a {margin: auto 0;}
+    .what .title-icon {
+        width: auto;
+        text-align: left;
+        margin: auto 0;
+    }
+    .what .text-area.right-side > a {margin: auto 0 auto auto;}
+    .what .title {margin: auto 0;}
+    .short-brief {
+        position: relative;
+        margin: 0 0 auto 0;
+    }
+    .breadcrumb {margin: 0;}
+
+
+
+
+    .what-sub .detailed-brief {padding: 20px 15px;}
+    .what-sub .title-icon {margin: auto 4px auto 0;}
+    .what-sub .brief-container {margin: 0;}
+
+
+    .team .navbar-container + .container-fluid .person-card {
+        min-width: calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
+    }
+
+    /*--------------------------------------------
+    PAGES > REFERENCES
+    --------------------------------------------*/
+    .references .navbar-container + .container-fluid > .container .customer-logo {
+        -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+    }
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(4n) {border-width: 0 1px 1px 0;}
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(6n) {border-width: 0 0 1px 0;}
+
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    .container-contact .map-route-helper.mobile {padding: 0 4rem;}
+    .nav-prv {left: 10px;}
+    .nav-nxt {right: 10px;}
+    .hurel-lbx .btn-close {
+        top: 10px;
+        right: 10px;
+    }
+    .image-gallery {
+        width: auto;
+        max-width: none;
+        padding: 2px;
+        margin: 0 -4rem;
+    }
+    .gallery-image {width: 16.66667%;}
+    .gallery-image .aspc-1x1 {border-width: 2px;}
+    .hurel-lbx .lbx-content img {
+        max-width: calc(100vw - 120px);
+        max-height: calc(100vh - 120px);
+    }
+}
+
+@media (min-width:768px) and (min-height:768px) {
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    .container-contact .map-route-helper.desktop {padding: 0 4rem;}
+}
+
+@media (min-width:992px) {
+    .navbar-container {
+        height: 90px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .navbar-container.sticky {
+        height: 56px;
+        background-color: rgba(48, 48, 48, .9);
+        box-shadow: 0 16px 32px -16px #000;
+    }
+    .navbar {
+        left: 1rem;
+        top: 1rem;
+        right: 1rem;
+        border-width: 1px 0;
+    }
+    .navbar-container.sticky .navbar {top: -2px;}
+    .navbar-collapse {
+        background-color: transparent;
+        box-shadow: none;
+        border-top: none;
+        overflow: visible;
+    }
+    .navbar-nav {margin: 0;}
+    .nav-item.active .nav-link {
+        pointer-events: none;
+        border: none;
+    }
+    .nav-item .nav-link.active {pointer-events: all;}
+    .nav-item .nav-link.active:hover {color: #ea2228;}
+    .nav-item.active .nav-link::before,
+    .nav-item.active .nav-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #ea2228;
+    }
+    .nav-item .nav-link:hover {color: #fff;}
+    .nav-item:not(.active) .nav-link::before,
+    .nav-item:not(.active) .nav-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        opacity: 0;
+        transition: all ease-in-out 200ms;
+    }
+    a.lng-nav {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: auto .5rem;
+    }
+    .xtnd-nav {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    #randomLandingImage .random-image img {
+        left: 50%;
+        top: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        transform: translate(-50%, -50%);
+    }
+    #randomLandingImage .hero {
+        padding: 3rem 10rem 1rem 10rem;
+        margin: auto;
+    }
+    #randomLandingImage .hero h1 {font-size: 2rem;}
+    #randomLandingImage .hero h1::before {left: -16px;}
+    #randomLandingImage .hero .signature {font-size: 1.25rem;}
+    #randomLandingImage .dot-pattern {background-size: .5rem;}
+    .section.what-home {overflow: hidden;}
+
+
+
+
+
+
+    .what-home .dot-pattern, .corporate-tv::before {background-size: .35rem;}
+    .what-home .corporate-tv {background-attachment: fixed;}
+    .content-corporate-tv {
+        right: -55%;
+        width: 180px;
+        margin: auto 0 auto auto;
+        background-color: #fff;
+    }
+    body.lng-en .content-corporate-tv {width: 250px;}
+    .what-home .corporate-tv .title {color: #4c4438;}
+    
+
+
+
+
+
+
+
+
+    .person-card {min-width: auto;}
+    .who-home .person-card:last-child::after {content: none;}
+    .person-card .dot-pattern {background-size: .25rem;}
+    .section.works-home {padding: 2rem;}
+    .section.references-home {padding: 1rem 0;}
+    #referencesHomePageCarousel .row {
+        padding: 0 1rem;
+        margin: 0;
+    }
+    #referencesHomePageCarousel .customer-logo {width: 16.66667%;}
+    #referencesHomePageCarousel + .action-btn {margin: 0 auto .5rem auto;}
+
+    /*--------------------------------------------
+    PAGES > ABOUT
+    --------------------------------------------*/
+    .sgp .container-about {
+        height: calc(100vh - 90px);
+        margin: 90px 0 0 0;
+    }
+    .mnemosyne {
+        height: auto;
+        max-height: calc(100% - 8px);
+        padding: 0;
+    }
+    .mnemosyne-photo::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('../navimgs/dots.png');
+        background-size: .25rem;
+        opacity: .66;
+        mix-blend-mode: multiply;
+        z-index: 1;
+    }
+    .mnemosyne .aligner {
+        display: block;
+        position: relative;
+        line-height: 0;
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        -webkit-column-gap: 0;
+        -moz-column-gap: 0;
+        column-gap: 0;
+        border-width: 0 4px;
+    }
+    .mnemosyne-photo {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+    .mnemosyne-photo:first-child {border-width: 4px;}
+    .sgp .container-about .container {
+        position: absolute;
+        left: 50%;
+        top: 4px;
+        bottom: 4px;
+        transform: translate(-50%, 0);
+        overflow: hidden;
+        z-index: 1;
+    }
+    .sgp .container-about .container .row {height: 100%;}
+    .sgp .container-about .container .brief {
+        -ms-flex: 0 0 calc(50% + 34px);
+        flex: 0 0 calc(50% + 34px);
+        width: calc(50% + 34px);
+        max-width: calc(50% + 34px);
+        height: 100%;
+        margin: 0 -17px;
+        color: #ccc;
+        background-color: #303030;
+        box-shadow: 0 0 30px #000;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    /*--------------------------------------------
+    PAGES > WHAT
+    --------------------------------------------*/
+    .what .navbar-container + .container-fluid {
+        padding-top: 0;
+        margin-top: 90px;
+    }
+    .what .page-section .container::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background: linear-gradient(to bottom, #303030, rgba(48, 48, 48, .66));
+        opacity: 1;
+        z-index: 1;
+        transition: opacity ease-in-out 300ms;
+    }
+    .what .page-section.active .container::after {opacity: 0;}
+    .what #creative .container::after {background: #303030;}
+    .what .text-area {padding: 3rem;}
+    .what .text-area.right-side {
+        right: -50%;
+        transition: right ease-in-out 500ms;
+    }
+    .what .page-section.active .text-area.right-side {right: 15px;}
+    .what .text-area.left-side {
+        left: -50%;
+        transition: left ease-in-out 500ms;
+    }
+    .what .page-section.active .text-area.left-side {left: 15px;}
+    .what-sub .page-section.container-fluid .container {
+        margin-top: -7.5px;
+        overflow: visible;
+    }
+    .what-sub .page-section .container::after {content: none;}
+    .what-sub .breadcrumb {
+        padding: 15px;
+        margin-left: 0;
+    }
+    .what-sub .what-img {
+        position: fixed;
+        left: 0;
+        top: 56px;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+    }
+    .what-sub .container .dot-pattern {
+        position: fixed;
+        background-size: .25rem;
+        mix-blend-mode: multiply;
+    }
+    .what-sub .detailed-brief {
+        padding: 30px;
+        margin: 0 0 auto 0;
+        z-index: 2;
+    }
+    .what-sub .title-icon {padding: 0;}
+
+    /*--------------------------------------------
+    PAGES > WORKS
+    --------------------------------------------*/
+    .page-section.container-fluid.recent {padding: 0;}
+    .video-iframe-container.with-gradient .video-iframe-wrapper {mix-blend-mode: multiply;}
+    .recent .video-iframe-container.with-gradient {
+        background-image: linear-gradient(to bottom, black, transparent);
+        background-color: #fff;
+    }
+    .page-section.container-fluid.work-list {margin-top: 56.25%;}
+    .work-list .row .col-md-4 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    /*--------------------------------------------
+    PAGES > TEAM
+    --------------------------------------------*/
+    .team .navbar-container + .container-fluid {padding: 90px 0 0 0;}
+    .team .navbar-container + .container-fluid .person-card {
+        min-width: calc(33.33333% - 2rem);
+        max-width: calc(33.33333% - 2rem);
+    }
+
+    /*--------------------------------------------
+    PAGES > REFERENCES
+    --------------------------------------------*/
+    .references {padding-top: 90px;}
+    .references .navbar-container {background-color: #303030;}
+    .references .navbar-container + .container-fluid > .container .customer-logo {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+    }
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(6n) {border-width: 0 1px 1px 0;}
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(8n) {border-width: 0 0 1px 0;}
+}
+
+@media (min-width:1025px) {
+    .navbar {
+        left: 0;
+        top: 32px;
+        right: 0;
+    }
+    .navbar-brand {
+        width: 40px;
+        background-color: #fff;
+        box-shadow: 0 0 0 1px #ea2228, 0 0 0 3px rgba(255, 255, 255, .3);
+        border-radius: 20px;
+        transition: all ease-in-out 200ms;
+        overflow: hidden;
+    }
+    .navbar-brand:hover {
+        width: 96px;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: 0 0 0 0 #ea2228, 0 0 0 0 rgba(255, 255, 255, .3);
+    }
+    .navbar-brand .sgp-logo {
+        width: 140px;
+        left: -68px;
+        top: -24px;
+        transition: all ease-in-out 200ms;
+    }
+    .navbar-brand:hover .sgp-logo {
+        width: 96px;
+        left: 0;
+        top: -10px;
+    }
+    .corporate-tv .text-area {padding: 6rem 2rem;}
+
+    /*--------------------------------------------
+    PAGES > ABOUT
+    --------------------------------------------*/
+    .sgp .container-about {
+        height: calc(100vh - 122px);
+        margin: 122px 0 0 0;
+    }
+
+    /*--------------------------------------------
+    PAGES > WHAT
+    --------------------------------------------*/
+    .what .navbar-container + .container-fluid {margin-top: 116px;}
+    .what-sub .page-section.container-fluid .container {margin-top: -26px;}
+
+    /*--------------------------------------------
+    PAGES > TEAM
+    --------------------------------------------*/
+    .team .navbar-container + .container-fluid {padding: 106px 0 0 0;}
+
+    /*--------------------------------------------
+    PAGES > REFERENCES
+    --------------------------------------------*/
+    .references {padding-top: 116px;}
+    .references .navbar-container {height: 116px;}
+    .navbar-container.sticky {height: 56px;}
+}
+
+@media (min-width:1200px) {
+    .action-btn {padding: .25rem .75rem;}
+    .search-active .search + .search-in-site-input {width: 300px;}
+    #randomLandingImage {height: 100vh;}
+    #randomLandingImage .hero h1 {font-size: 3rem;}
+    #randomLandingImage .hero h1::before, #randomLandingImage .hero h1::after {font-size: 50%;}
+    #randomLandingImage .hero h1::before {left: -26px;}
+    .what-home .row {padding: 1rem .75rem;}
+    .what-home .col-md-3 {
+        padding-bottom: calc(25% - 2rem);
+        border: 1rem solid #fff;
+    }
+    .what-home .col-md-3 .text-area {
+        left: 1.75rem;
+        top: 1.75rem;
+        right: 1.75rem;
+        bottom: 1.75rem;
+        padding: 1rem;
+        border-radius: 50em;
+        transform: scale(0);
+    }
+    .what-home .corporate-tv {padding: 0;}
+    .corporate-tv::after {background-size: .5rem;}
+    .content-corporate-tv {
+        right: -55%;
+        margin: auto 0 auto auto;
+    }
+    .corporate-tv .text-area {
+        padding: 6rem 2rem;
+        margin: auto 0;
+    }
+    .row.headqourter {padding: 1rem;}
+    .person-card {padding: 1rem;}
+    .who-home .action-btn {margin: 1rem auto 3rem auto;}
+    .works-home .row .col-md-6 {padding: 1rem;}
+    #referencesHomePageCarousel .customer-logo {padding: 0 2.5rem;}
+    #referencesHomePageCarousel .carousel-control {
+        width: 50%;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+    }
+    #referencesHomePageCarousel .carousel-control::before {content: none;}
+    #referencesHomePageCarousel .carousel-control-prev {cursor: url("../navimgs/custom-carousel-cursor-1-b-prev.png"), auto;}
+    #referencesHomePageCarousel .carousel-control-next {cursor: url("../navimgs/custom-carousel-cursor-1-b-next.png"), auto;}
+    #referencesHomePageCarousel + .action-btn {margin: 0 auto 1rem auto;}
+
+    /*--------------------------------------------
+    PAGES > ABOUT
+    --------------------------------------------*/
+    .mnemosyne .aligner {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+
+    /*--------------------------------------------
+    PAGES > WHAT
+    --------------------------------------------*/
+    .what .title-icon {font-size: 2rem;}
+    .what .title {font-size: 1.5rem;}
+    .what-sub .title-w-icon {margin: 0 0 1rem 0;}
+    .what-sub .title-icon {margin: 0 .5rem 0 0;}
+    .what-sub .detailed-brief h1 {margin: auto 0 0 0;}
+
+    /*--------------------------------------------
+    PAGES > WORKS
+    --------------------------------------------*/
+    .recent .container {max-width: 1140px;}
+    .page-section.container-fluid.work-list {
+        top: calc(1140px * .5625);
+        margin: 0;
+        background: none;
+    }
+    .page-section.container-fluid.work-list > .container {
+        max-width: 1140px;
+        padding: 0;
+    }
+    .work-list .row .col-md-4 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    /*--------------------------------------------
+    PAGES > REFERENCES
+    --------------------------------------------*/
+    .references .navbar-container + .container-fluid > .container .customer-logo {
+        -ms-flex: 0 0 11.11%;
+        flex: 0 0 11.11%;
+    }
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(8n) {border-width: 0 1px 1px 0;}
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(9n) {border-width: 0 0 1px 0;}
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-child(n + 19) {border-width: 0 1px 0 0;}
+    .references .navbar-container + .container-fluid > .container .customer-logo:nth-last-child(1) {border-width: 0;}
+
+    /*--------------------------------------------
+    PAGES > CONTACT
+    --------------------------------------------*/
+    .container-contact .container {margin: auto auto 0 auto;}
+
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    /* .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1.25rem -4rem auto -4rem;
+    }
+    .gallery-image {width: 8.3333%;} */
+}
+
+@media (min-width:1440px) {
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1.25rem -4rem auto -4rem;
+    }
+    .gallery-image {width: 8.3333%;}
+}
+
+@media (min-width:1567px) {
+    .section.what-home {padding: 0 15px;}
+    .what-home .col-md-3 .text-area {
+        left: 3.75rem;
+        top: 3.75rem;
+        right: 3.75rem;
+        bottom: 3.75rem;
+        padding: 2rem;
+    }
+    .person-card .dot-pattern {transition: opacity ease-in-out 300ms;}
+    .person-card:hover .dot-pattern {opacity: 0;}
+    .person-card .person-photo-wrapper {transition: all ease-in-out 300ms;}
+    .person-card .person-photo-wrapper img {transition: all ease-in-out 300ms;}
+    .person-card:hover .person-photo-wrapper img {
+        mix-blend-mode: multiply;
+        min-width: 110%;
+        min-height: 110%;
+        max-height: 110%;
+    }
+    .person-card .person-info {
+        position: absolute;
+        left: 2rem;
+        bottom: 2rem;
+        margin: 0;
+        white-space: nowrap;
+        color: #fff;
+        cursor: default;
+        opacity: 0;
+        transition: opacity ease-in-out 300ms;
+        z-index: 1;
+    }
+    .person-card:hover .person-info {opacity: 1;}
+    #referencesHomePageCarousel .customer-logo {padding: 0 3rem;}
+    #referencesHomePageCarousel + .action-btn {margin: 0 auto 2rem auto;}
+
+    /*--------------------------------------------
+    PAGES > TEAM
+    --------------------------------------------*/
+    .team .navbar-container + .container-fluid .container {
+        padding: .5rem 0 2rem 0;
+        margin: 0 auto;
+    }
+    .team .navbar-container + .container-fluid .person-card {margin: 1rem;}
+    .team .navbar-container + .container-fluid .person-info {
+        left: 0;
+        bottom: 0;
+        padding: .5rem;
+        color: #666;
+        opacity: 1;
+    }
+    .team .navbar-container + .container-fluid .person-card:hover .person-info {color: #999;}
+    .team .navbar-container + .container-fluid .person-card .person-titr {
+        margin: 5px 0 0 0;
+        opacity: .5;
+    }
+}
+
+@media (min-width:1920px) {
+    .what-home .col-md-3 .text-area {
+        left: 5rem;
+        top: 5rem;
+        right: 5rem;
+        bottom: 5rem;
+    }
+    #referencesHomePageCarousel .customer-logo {padding: 0 5rem;}
+}
+
+@media (min-width:1999px) {
+    .sgp .container-about .container .col-lg-3 {display: none;}
+    .sgp .container-about .container .brief {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+
+    /*--------------------------------------------
+    PAGES > CONTACT > IMAGE GALLERY
+    --------------------------------------------*/
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1140px;
+        padding: 0 4rem;
+        margin: 1.25rem auto auto auto;
+    }
+    .gallery-image {width: 16.66667%;}
+}
+/*--------------------------------------------
+./MEDIA QUERIES
+--------------------------------------------*/
